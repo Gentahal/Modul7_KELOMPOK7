@@ -19,7 +19,7 @@ public class FilmFavorit
 
         var filmFavorit = JsonSerializer.Deserialize<FilmFavorit>(json1);
 
-        Console.WriteLine($"Title: {filmFavorit.title} Director: {director} Year: {year} Genre: {genre} Rating: {rating} DurationMinutes {durationMinutes}");
+        Console.WriteLine($"Title: {filmFavorit.title} Director: {filmFavorit.director} Year: {filmFavorit.year} Genre: {filmFavorit.genre} Rating: {filmFavorit.rating} DurationMinutes {filmFavorit.durationMinutes}");
     }
 
 }
